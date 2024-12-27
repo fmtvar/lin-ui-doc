@@ -27,7 +27,7 @@ npm init
 - 1.执行npm init进行初始化，此时会生成一个package.json文件，如果不进行npm init，在构建npm的时候会报一个错误：`没有找到 node_modules 目录`
 - 2.不建议使用cnpm，这样会带来一些未知的错误。如果网络情况不佳，可以使用下面的命令行更换为淘宝源。
 ```bash
-npm config set registry https://registry.npm.taobao.org 
+npm config set registry https://registry.npmmirror.com
 ```
 :::
 接着，继续执行下面的命令。
